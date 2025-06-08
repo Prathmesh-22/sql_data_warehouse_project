@@ -17,6 +17,7 @@ Usage Example:
     EXEC Silver.load_silver;
 ===============================================================================
 */
+USE DataWarehouse;
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
@@ -251,3 +252,5 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
+EXEC silver.load_silver;

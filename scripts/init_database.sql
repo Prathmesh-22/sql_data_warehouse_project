@@ -40,3 +40,8 @@ GO
 
 CREATE SCHEMA gold;
 GO
+
+-- Try creating a table in bronze schema
+CREATE TABLE bronze.test_permissions (
+    id INT
+);

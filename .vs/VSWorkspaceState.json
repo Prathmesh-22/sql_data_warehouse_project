@@ -2,6 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\scripts",
+    "\\scripts\\gold",
     "\\scripts\\silver"
   ],
   "SelectedNode": "\\scripts\\silver\\proc_load_silver.sql",
